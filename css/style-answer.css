@@ -6,13 +6,21 @@ h1, h2{
 
 .grid {
     width: 800px;
-    align-items: center;
+    justify-content: center;
     display: grid;
     grid-template-columns: 1fr,1fr,1fr;
     gap: 10px;
     background-color: #91f321;
-    background-image: ('images/sample.jpg');
+    background-image: url(images/backgroundd.jpg);
     border: 3px, solid, black;
     border-radius: 10px;
    }
    
+.item{
+    border: 5px;
+    background-color:rgba(231, 157, 224, 0.5);
+    text-align: center;
+    padding: 20px;
+    font-size:30px ;
+}
+
